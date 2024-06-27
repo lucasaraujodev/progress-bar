@@ -1,5 +1,6 @@
 /* import google fonts (Poppins 400, 600) */
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600&display=swap');
+
 
 * {
     margin: 0;
@@ -70,4 +71,44 @@ h2 {
 .inside-circle span {
     font-size: 1.2rem;
     margin-left: 0.2rem;
+}
+.line {
+    margin-top: 2rem;
+    border: 1px solid rgb(216, 216, 216);
+}
+.progress-report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-report h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.progress-report span {
+    font-size: 1rem;
+    color: rgb(99, 98, 98);
+}
+.progress-report .line {
+    height: 5rem;
+}
+.contact{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(224, 215, 231);
+}
+.contact img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid rgb(159, 149, 167);
+}
+.contact .text {
+    text-align: left;
+    padding: 10px 20px;
+}
+.contact .text h3 {
+    text-transform: capitalize;
 }
